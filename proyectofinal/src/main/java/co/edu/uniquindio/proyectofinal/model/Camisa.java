@@ -1,4 +1,4 @@
-package co.edu.uniquindo.proyectofinal.model;
+package co.edu.uniquindio.proyectofinal.model;
 
 public class Camisa extends Producto implements Cloneable {
     private Camisa(Builder builder) {
