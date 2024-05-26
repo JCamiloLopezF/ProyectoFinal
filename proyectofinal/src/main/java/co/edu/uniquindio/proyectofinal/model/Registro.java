@@ -1,4 +1,4 @@
-package co.edu.uniquindo.pii.proyecto.cliente.model;
+package co.edu.uniquindio.proyectofinal.model;
 
 import java.util.List;
 
