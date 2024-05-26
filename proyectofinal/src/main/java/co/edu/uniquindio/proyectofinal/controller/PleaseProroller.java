@@ -1,15 +1,5 @@
-<<<<<<< HEAD
 import java.net.URL;
 import java.util.ResourceBundle;
-=======
-package co.edu.uniquindio.proyectofinal.controller;
-
-import java.io.IOException;
-import java.net.URL;
-import java.util.ResourceBundle;
-
-import co.edu.uniquindio.proyectofinal.App;
->>>>>>> af3921a2fbb0df72221a3adb9204a4c2ec4129f7
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -17,11 +7,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 
-<<<<<<< HEAD
 public class PleaseProroller ideControllerClassName {
-=======
-public class loginController {
->>>>>>> af3921a2fbb0df72221a3adb9204a4c2ec4129f7
 
     @FXML
     private ResourceBundle resources;
@@ -43,15 +29,7 @@ public class loginController {
 
     @FXML
     void startAction(ActionEvent event) throws IOException{
-<<<<<<< HEAD
         
-=======
-        if(userTxtField.getText().equals("admin") && passwordTxtField.getText().equals("admin123")){
-            App.setRoot("gerenteView");
-        }else{
-            App.setRoot("clienteView");
-        }
->>>>>>> af3921a2fbb0df72221a3adb9204a4c2ec4129f7
     }
 
     @FXML
@@ -60,12 +38,7 @@ public class loginController {
         assert passwordTxtField != null : "fx:id=\"passwordTxtField\" was not injected: check your FXML file 'login.fxml'.";
         assert start != null : "fx:id=\"start\" was not injected: check your FXML file 'login.fxml'.";
         assert userTxtField != null : "fx:id=\"userTxtField\" was not injected: check your FXML file 'login.fxml'.";
-<<<<<<< HEAD
 
     }
 
 }
-=======
-    }
-}
->>>>>>> af3921a2fbb0df72221a3adb9204a4c2ec4129f7
