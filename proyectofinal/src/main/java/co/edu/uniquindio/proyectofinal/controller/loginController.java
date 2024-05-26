@@ -35,13 +35,11 @@ public class loginController {
 
     @FXML
     void startAction(ActionEvent event) throws IOException{
-
         if(userTxtField.getText().equals("admin") && passwordTxtField.getText().equals("admin123")){
             App.setRoot("gerenteView");
         }else{
             App.setRoot("clienteView");
         }
-
     }
 
     @FXML
