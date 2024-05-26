@@ -21,5 +21,4 @@ public class Usuario extends OperacionPedidoPlantilla{
     public void realizarPedido(){
 
     }
-
 }

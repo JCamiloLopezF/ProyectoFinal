@@ -7,4 +7,7 @@ module co.edu.uniquindio.proyectofinal {
 
     opens co.edu.uniquindio.proyectofinal.model;
     exports co.edu.uniquindio.proyectofinal.model;
+
+    opens co.edu.uniquindio.proyectofinal.controller;
+    exports co.edu.uniquindio.proyectofinal.controller;
 }
