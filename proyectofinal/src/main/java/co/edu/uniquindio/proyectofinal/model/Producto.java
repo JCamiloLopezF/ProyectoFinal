@@ -1,4 +1,4 @@
-package co.edu.uniquindo.pii.proyecto.cliente.model;
+package co.edu.uniquindio.proyectofinal.model;
 
 public class Producto{
     public double precio;
