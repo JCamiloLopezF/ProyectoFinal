@@ -10,10 +10,9 @@
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindo.pii.proyecto.cliente.ClienteController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.proyectofinal.controller.clienteController">
    <children>
       <Button fx:id="btnComprar0" layoutX="37.0" layoutY="269.0" mnemonicParsing="false" onAction="#comprarProducto" style="-fx-background-color: #332F2C;" text="Comprar" textFill="WHITE" />
-      <Button fx:id="btnCarrito" layoutX="18.0" layoutY="312.0" mnemonicParsing="false" onAction="#anadirProductoACarrito" style="-fx-background-color: #332F2C;" text="Añadir al carrito" textFill="WHITE" />
       <Label layoutX="14.0" layoutY="8.0" text="Tienda" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="8.0">
          <font>
             <Font name="BrandingPro-Bold" size="30.0" />
@@ -35,17 +34,14 @@
             </LinearGradient>
          </textFill>
       </Label>
-      <Label fx:id="home" layoutX="551.0" layoutY="15.0" prefHeight="25.0" prefWidth="29.0" text="YZ!" textFill="#c9c9c9" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="15.0">
+      <Label fx:id="home" layoutX="511.0" layoutY="14.0" prefHeight="26.0" prefWidth="46.0" text="YZ!" textFill="#c9c9c9" AnchorPane.rightAnchor="43.0" AnchorPane.topAnchor="14.0">
          <font>
-            <Font name="Jeztec Empire" size="22.0" />
+            <Font name="Berlin Sans FB" size="22.0" />
          </font>
       </Label>
       <Button fx:id="btnComprar1" layoutX="188.0" layoutY="269.0" mnemonicParsing="false" onAction="#comprarProducto" style="-fx-background-color: #332F2C;" text="Comprar" textFill="WHITE" />
       <Button fx:id="btnComprar2" layoutX="346.0" layoutY="269.0" mnemonicParsing="false" onAction="#comprarProducto" style="-fx-background-color: #332F2C;" text="Comprar" textFill="WHITE" />
       <Button fx:id="btnComprar3" layoutX="491.0" layoutY="269.0" mnemonicParsing="false" onAction="#comprarProducto" style="-fx-background-color: #332F2C;" text="Comprar" textFill="WHITE" />
-      <Button fx:id="btnCarrito1" layoutX="164.0" layoutY="312.0" mnemonicParsing="false" onAction="#anadirProductoACarrito" style="-fx-background-color: #332F2C;" text="Añadir al carrito" textFill="WHITE" />
-      <Button fx:id="btnCarrito2" layoutX="327.0" layoutY="312.0" mnemonicParsing="false" onAction="#anadirProductoACarrito" style="-fx-background-color: #332F2C;" text="Añadir al carrito" textFill="WHITE" />
-      <Button fx:id="btnCarrito3" layoutX="472.0" layoutY="312.0" mnemonicParsing="false" onAction="#anadirProductoACarrito" style="-fx-background-color: #332F2C;" text="Añadir al carrito" textFill="WHITE" />
       <AnchorPane fx:id="camisa11" layoutX="14.0" layoutY="76.0" prefHeight="175.0" prefWidth="109.0" style="-fx-border-color: purple;">
          <children>
             <ImageView fitHeight="175.0" fitWidth="109.0" layoutX="1.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
