@@ -34,7 +34,7 @@
             </LinearGradient>
          </textFill>
       </Label>
-      <Label fx:id="home" layoutX="511.0" layoutY="14.0" prefHeight="26.0" prefWidth="46.0" text="YZ!" textFill="#c9c9c9" AnchorPane.rightAnchor="43.0" AnchorPane.topAnchor="14.0">
+      <Label fx:id="home" layoutX="522.0" layoutY="15.0" prefHeight="26.0" prefWidth="46.0" text="YZ!" textFill="#c9c9c9" AnchorPane.rightAnchor="31.600000000000023" AnchorPane.topAnchor="15.0">
          <font>
             <Font name="Berlin Sans FB" size="22.0" />
          </font>
